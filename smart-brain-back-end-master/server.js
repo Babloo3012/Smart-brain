@@ -1,7 +1,7 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const bcrypt = require('bcrypt-nodejs');
-const cors = require('cors');      */cors helps front end client to request for resources to external backend sefrver*/
+const bodyParser = require('body-parser');    */ Body Parser is a middleware of Node JS used to handle HTTP POST request.*/
+const bcrypt = require('bcrypt-nodejs');   
+const cors = require('cors');      */cors helps front end client to request for resources to external backend server*/
 const knex = require('knex');
 const register = require('./controllers/register');
 const signin = require('./controllers/signin');
