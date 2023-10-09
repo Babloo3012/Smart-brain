@@ -1,5 +1,5 @@
 const express = require('express');
-const bodyParser = require('body-parser');    */ Body Parser is a middleware of Node JS used to handle HTTP POST request.*/
+const bodyParser = require('body-parser');    */ Body Parser is a middleware of Node JS used to handle HTTP POST request.(Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next middleware function in the application's request-response cycle.)*/
 const bcrypt = require('bcrypt-nodejs');   
 const cors = require('cors');      */cors helps front end client to request for resources to external backend server*/
 const knex = require('knex');
